@@ -1,12 +1,16 @@
-# Async Poker Planner
+# Async Planning Poker
 
-This is still a work in progress. The idea is to have a tool for async poker planning sessions.
+Planning poker is a cornerstone of agile estimation, but traditional synchronous sessions can be time-consuming and inefficient. This tool transforms the experience into an asynchronous process, empowering development teams to estimate on their own schedule while maintaining collaborative decision-making.
 
-Instead of having many long meetings debating if a story 2, 3, 5 or 8, we can plan and estimate features in an async manner. Allowing developers to take ownership of planning and estimation while still allowing for feedback and discussion.
+This is a work in progress project.
 
-Users can vote on a story, add details, and leave comments. The votes and comments will be visible to all users in the room once ready to share.
+## Key Features
+- Asynchronous voting and discussion
+- Transparent feedback through visible votes and comments
+- Historical comparison with previous estimates
+- Team ownership of the planning process
 
-User can also compare the estimates to other stories and features  previously voted on in the same group, allowing for a more informed decision.
+By shifting from scheduled meetings to flexible participation, teams can provide thoughtful estimates while reducing meeting overhead and timezone constraints.
 
 ## Running the application
 

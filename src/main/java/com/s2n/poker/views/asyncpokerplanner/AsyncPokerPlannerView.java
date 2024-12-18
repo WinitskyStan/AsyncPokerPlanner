@@ -14,8 +14,7 @@ import com.vaadin.flow.theme.lumo.LumoUtility.Gap;
 @PageTitle("Async Poker Planner")
 @Route("")
 public class AsyncPokerPlannerView extends Composite<VerticalLayout> {
-
-    public AsyncPokerPlannerView() {
+    public AsyncPokerPlannerView(AsyncPokerPlannerService service) {
         HorizontalLayout layoutRow = new HorizontalLayout();
         VerticalLayout layoutColumn2 = new VerticalLayout();
         TextField textField = new TextField();
@@ -43,5 +42,7 @@ public class AsyncPokerPlannerView extends Composite<VerticalLayout> {
         layoutColumn2.add(textField);
         layoutColumn2.add(buttonPrimary);
         getContent().add(layoutRow2);
+
+        buttonPrimary.addClickListener(e -> service.joinRoom(textField.getValue()));
     }
 }

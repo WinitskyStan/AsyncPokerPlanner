@@ -6,6 +6,8 @@ Instead of having many long meetings debating if a story 2, 3, 5 or 8, we can pl
 
 Users can vote on a story, add details, and leave comments. The votes and comments will be visible to all users in the room once ready to share.
 
+User can also compare the estimates of other users previously voted on the same group, allowing for a more informed decision.
+
 ## Running the application
 
 Open the project in an IDE. You can download the [IntelliJ community edition](https://www.jetbrains.com/idea/download) if you do not have a suitable IDE already.

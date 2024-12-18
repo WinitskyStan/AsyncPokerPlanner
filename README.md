@@ -1,8 +1,8 @@
 # Async Poker Planner
 
-This is still a work in progress. The idea is to have a tool for planning poker sessions async.
+This is still a work in progress. The idea is to have a tool for async poker planning sessions.
 
-Instead of having many long meetings debating if a story 2, 3, 5 or 8, we can plan and estimate in async manner. Allowing developers to take ownership of estimations and planning while still allowing for feedback and discussion in an async manner.
+Instead of having many long meetings debating if a story 2, 3, 5 or 8, we can plan and estimate features in an async manner. Allowing developers to take ownership of planning and estimation while still allowing for feedback and discussion.
 
 Users can vote on a story, add details, and leave comments. The votes and comments will be visible to all users in the room once ready to share.
 

@@ -1,7 +1,10 @@
 # Async Poker Planner
 
-This project can be used as a starting point to create your own Vaadin application with Spring Boot.
-It contains all the necessary configuration and some placeholder files to get you started.
+This is still a work in progress. The idea is to have a tool for planning poker sessions async.
+
+Instead of having many long meetings debating if a story 2, 3, 5 or 8, we can plan and estimate in async manner. Allowing developers to take ownership of estimations and planning while still allowing for feedback and discussion in an async manner.
+
+Users can vote on a story, add details, and leave comments. The votes and comments will be visible to all users in the room once ready to share.
 
 ## Running the application
 
